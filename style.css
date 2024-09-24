@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.ul-navbar {
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    position: absolute;
+    left: 492px;
+    bottom: 655px;
+    font-weight: 450;
+    font-family: 'poppins', sans-serif;
+}
+.li-navbar {
+    font-size: 13px;
+}
+
+.li-navbar a {
+    color: white;
+}
+
+.logo-head {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.gambar {
+    height: 711px;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    bottom: 600px;
+    right: 1120px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.judul {
+    margin: auto;
+    padding: auto;
+}
+
+.h1-navbar {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20;
+    position: absolute;
+    left: 597.5px;
+    bottom: 535px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.h2-navbar {
+    color: #f3f3f3;
+    font-weight: 299;
+    font-size: 60;
+    position: absolute;
+    left: 390px;
+    bottom: 440px;
+    letter-spacing: 10px;
+    font-family: 'poppins', sans-serif;
+    text-shadow: 5px 10px 10px rgb(0, 0, 0);
+}
+
+.container-content {
+    background-color: #ffffff;
+    padding: 400px;
+    font-family: 'poppins', sans-serif;
+}
+
+.h1-content {
+    position: relative;
+    bottom: 270px;
+    display: flex;
+    justify-content: center;
+    font-family: 'roboto', sans-serif;
+    color: #000000;
+    letter-spacing:3px;
+    font-weight: 410;
+    font-size: 40;
+}
+
+.wali-kelas {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    top: 59rem;
+    left: 32rem;
+    display: grid;
+    justify-content: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+}
+
+.p-dosen {
+    position: relative;
+    left: 12px;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    position: absolute;
+    left: 625px;
+    top: 64.1rem;
+}
+
+.vertical-line2 {
+    width: 2px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    position: absolute;
+    left: 625px;
+    top: 75.5rem;
+}
+
+.ketua-kelas {
+    position: absolute;
+    border-radius: 10px;
+    bottom: 34px;
+    left:80.5px;
+    position: relative;
+    display: grid;
+    justify-content: center;        
+    border: 1px solid #000000;
+    padding: 10px 10px 10px 10px;
+    width: 17rem;
+    background-color: antiquewhite;
+}
+
+.ketua-kelas h2 {
+    position: relative;
+    left: 12px;
+}
+
+
+
+.nama {
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20rem;
+}
